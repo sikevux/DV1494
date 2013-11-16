@@ -59,6 +59,13 @@ int main() {
 	printf("%s\t%o\t%d\n", pointer, num, num);
 
 	free(pointer);
+	pointer = NULL;
+
+	free(buffer);
+	buffer = NULL;
+
+	free(number);
+	number = NULL;
 
 	return 0;
 }

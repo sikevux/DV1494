@@ -48,5 +48,11 @@ int main() {
 	printf("%s fick resultatet %d\n", player1, player1dice1 + player1dice2);
 	printf("%s fick resultatet %d\n", player2, player2dice1 + player2dice2);
 
+	free(player1);
+	player1 = NULL;
+
+	free(player2);
+	player2 = NULL;
+
 	return 0;
 }

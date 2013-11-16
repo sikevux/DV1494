@@ -46,6 +46,10 @@ int main() {
 
 	printf("Givet att sidorna är %d och %d\n", side1, side2);
 	printf("så blir hypotenusan %f\n", hypot);
+
+	free(buffer);
+	buffer = NULL;
+
 	return 0;
 
 }

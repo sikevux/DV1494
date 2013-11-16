@@ -37,5 +37,8 @@ int main() {
 		return 1;
 	}
 
+	free(inputholder);
+	inputholder = NULL;
+
 	return 0;
 }

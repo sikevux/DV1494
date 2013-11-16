@@ -50,6 +50,8 @@ int main() {
 
 	printf("Du borde betala %.0f i skatt\n", tax);
 
+	free(indata);
+	indata = NULL;
 
 	return 0;
 }

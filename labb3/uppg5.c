@@ -28,5 +28,8 @@ int main() {
 		printf("Tyvärr lyckades du inte mata in ett godkänt årtal\n");
 	}
 
+	free(indata);
+	indata = NULL;
+
 	return 0;
 }
